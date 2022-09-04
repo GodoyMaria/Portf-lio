@@ -1,0 +1,86 @@
+@font-face {
+    font-family: newFont;
+    src: url(Poppins-Regular.ttf);
+}
+body {
+    position: absolute;
+    left: 13%;
+    right:13%;
+    
+    background-color: #e2d0d6;
+
+    color: #5a5e61;
+    font-family: newFont;
+}
+#Logo {
+    margin-right: 0%;
+}
+.cabeçaSite {
+    display: inline-block;
+    margin-right: 60%;
+}
+div {
+    display: inline-block;
+    margin-left: 50px;
+
+    text-align: justify;
+
+    padding-top: 50px;
+}
+#fotoPerfil {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+}
+a {
+    margin: 5px;
+    text-align: center;
+
+    min-width: 150px;
+}
+a:link, a:visited {
+    background-color: #9b5b7d;
+    color: #8b4869;
+    border-color: #8b4869;
+    border-style: solid;
+    border-width: 2px;
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+a:hover, a:active {
+    background-color: #8b4869;
+    color:#e2d0d6;
+}
+#imagemSite {
+    border-radius: 10%;
+    max-width: 350px;
+    max-height: 350px;
+}
+#imagemForca {
+    border-radius: 10%;
+    max-width: 350px;
+    max-height: 350px;
+
+    vertical-align: middle;
+}
+#Logo {
+    max-width: 80px;
+    max-height: 80px;
+
+    vertical-align: middle;
+
+    margin-right: 20px;
+}
+body::-webkit-scrollbar {
+    width: 12px;              
+}
+  body::-webkit-scrollbar-track {
+    background: #e2d0d6;        
+}
+  body::-webkit-scrollbar-thumb {
+    background-color: #8b4869;    
+    border-radius: 20px;       
+    border: 3px solid #e2d0d6;  
+}
